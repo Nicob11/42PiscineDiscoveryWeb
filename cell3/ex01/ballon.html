@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ballon</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .ballon {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ballon" id="ballon"></div>
+    </div>
+    <script>
+        const ballon = document.getElementById('ballon');
+        let size = 200;
+        let indexColor = 0;
+        let color = ['red', 'green', 'blue'];
+
+        ballon.addEventListener('click', () => {
+            size += 10;
+            indexColor++;
+            if (indexColor > 2) {
+                indexColor = 0;
+            }
+            if (size > 420) {
+                size = 200;
+            }
+            ballon.style.width = size + 'px';
+            ballon.style.height = size + 'px';
+            ballon.style.backgroundColor = color[indexColor];
+        })
+        ballon.addEventListener('mouseover', () => {
+            size -= 5;
+            indexColor--;
+            if (indexColor < 0) {
+                indexColor = 2;
+            }
+            if (size < 200) {
+                size = 200;
+            }
+            ballon.style.width = size + 'px';
+            ballon.style.height = size + 'px';
+            ballon.style.backgroundColor = color[indexColor];
+
+        })
+    </script>
+
+</html>

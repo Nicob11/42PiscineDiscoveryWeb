@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.bloque h3.first {
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 500px;
+
+}
+.bloque h3.second {
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1150px;
+}
+.bloque h3.third {
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 700px;
+}
+
+.bloque.parallax {
+    height: 800px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax.cover-1 {
+background-image: url(https://www.papelpintado.com/media/catalog/product/cache/39df7e05fcdeb150001268a7a074dc57/w/0/w05059-small.jpg);
+}
+.parallax.cover-2 {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-modelo-inconsutil-damasco-vector-clasico-lujo-antiguo-ornamento-damasco-real-victoriana-textura-transparente-papeles-pintados-textiles-envoltura-plantilla-barroca-floral-exquisita_1217-738.jpg?w=1380&t=st=1705502820~exp=1705503420~hmac=44d7c652dca695ff1ec91997ba6a972656b4a7587a11e151c845b7f9918e0eb6)
+}
+.parallax.cover-3 {
+    background-image: url(https://www.papelpintado.com/media/catalog/product/cache/765175cf1e0a4cff0292d295081d4aa3/w/0/w05118-small.jpg);
+}

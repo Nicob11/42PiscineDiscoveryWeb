@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background</title>
+    <link rel="stylesheet" href="backgroound.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <button class="btn" onclick="cambiarColor()" id="cambiarColor">Click me</button>
+        </div>
+    </div>
+</body>
+<script>
+    function cambiarColor() {
+        const colores = ["#ff5733", "#33ff57", "#5733ff", "#ff33a1", "#33a1ff", "#a1ff33"];
+
+        const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+
+        document.body.style.backgroundColor = colorAleatorio;
+    }
+</script>
+</html>

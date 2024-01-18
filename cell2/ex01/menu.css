@@ -1,0 +1,53 @@
+ul {
+    display: none;
+    padding: 3px;
+    margin-left: 19px;
+    margin-top: 0%;
+}
+
+input:checked ~ ul {
+    display: block;
+}
+
+input {
+    display: none;
+}
+
+label {
+    background: rgb(190, 123, 16);
+    box-sizing: border-box;
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 100px;
+    height: 70px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
+li {width: fit-content;
+    display: block;
+    background: rgb(206, 136, 22);
+    margin: 0;
+    padding: 3px;
+    list-style: none;
+    border-bottom: 1px solid rgb(227, 234, 86);
+    border-radius: 5px;
+}
+.lechuga {
+    background: rgb(22, 174, 17);
+}
+.tomate {
+    background: rgb(227, 86, 86);
+}
+.carne {
+    background: rgba(138, 56, 36, 0.614);
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
