@@ -1,0 +1,55 @@
+body {
+    background-color: #000000;
+    background-image: url(42n.jpg);
+    object-fit: cover;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+}
+
+.profile-img {
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    width: 200px;
+    border: 8px solid #2c2f3f;
+
+}
+
+header {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #252222;
+    color: #ffffff;
+    position: fixed;
+    width: 300px;
+    z-index: 9997;
+    padding: 0 15px;
+}
+
+.profile {
+    display: block;
+    box-sizing: border-box;
+}
+
+.a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
